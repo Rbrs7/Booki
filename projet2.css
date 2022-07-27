@@ -178,6 +178,7 @@ button
 
 input
 {
+    outline: 0;
     font-size: 135%;
     font-family: 'ralewaysemibold';
     font-weight: 600;
