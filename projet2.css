@@ -165,7 +165,7 @@ form
 button
 {
     position: relative;
-    top: 1px;
+    top: -1px;
     left: 60px;
     width: 128px;
     height: 53px;
@@ -178,6 +178,9 @@ button
 
 input
 {
+    font-size: 135%;
+    font-family: 'ralewaysemibold';
+    font-weight: 600;
     width: 220px;
     height: 50px;
     position: relative;
@@ -201,7 +204,7 @@ input
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    position: absolute;
-    left: 64px;
-    top: 221px;
+    position: relative;
+    left: 13px;
+    top: -52.1px;
 }
