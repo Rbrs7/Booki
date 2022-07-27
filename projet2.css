@@ -1,1 +1,207 @@
+/* Ajout des icones */
+@font-face 
+{
+    font-family: 'icomoon';
+    src:  url('images/IconeP2/fonts/icomoon.eot?bu41sa');
+    src:  url('images/IconeP2/fonts/icomoon.eot?bu41sa#iefix') format('embedded-opentype'),
+      url('images/IconeP2/fonts/icomoon.ttf?bu41sa') format('truetype'),
+      url('images/IconeP2/fonts/icomoon.woff?bu41sa') format('woff'),
+      url('images/IconeP2/fonts/icomoon.svg?bu41sa#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] 
+{
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-dog-solid:before 
+{
+    content: "\e900";
+}
+  .icon-credit-card:before 
+{
+    content: "\e93f";
+}
+.icon-location:before 
+{
+    content: "\e947";
+}
+.icon-star-empty:before 
+{
+    content: "\e9d7";
+}
+.icon-star-full:before 
+{
+    content: "\e9d9";
+}
+.icon-heart:before 
+{
+    content: "\e9da";
+}
+.icon-info:before 
+{
+    content: "\ea0c";
+}
+.icon-accessibility:before {
+    content: "\e9b2";
+}
+
 /* Ajout des polices */
+@font-face 
+{
+    font-family: 'ralewaythin_italic';
+    src: url('police/ralewayitalic/raleway-italic-variablefont_wght-webfont.woff') format('woff'),
+         url('police/ralewayitalic/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('police/Raleway-Italic-VariableFont_wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'ralewaysemibold';
+    src: url('police/ralewaysemibold/Raleway-SemiBold.eot');
+    src: url('police/ralewaysemibold/Raleway-SemiBold.eot') format('embedded-opentype'),
+        url('police/ralewaysemibold/Raleway-SemiBold.woff2') format('woff2'),
+        url('police/ralewaysemibold/Raleway-SemiBold.woff') format('woff');
+    font-weight: 550;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'ralewaylight';
+    src: url('police/ralewaylight/Raleway-Light.eot');
+    src: url('police/ralewaylight/Raleway-Light.eot') format('embedded-opentype'),
+        url('police/ralewaylight/Raleway-Light.woff2') format('woff2'),
+        url('police/ralewaylight/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.bloc_page
+{
+    margin: auto;
+    width: 1800px;
+}
+
+body h2
+{
+    font-family: 'ralewaylight';
+    font-size: 110%;
+}
+
+body h1
+{
+    font-family: 'ralewaysemibold';
+    font-size: 130%;
+}
+
+body img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo
+{
+    width: 90px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#logo_menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+nav li
+{
+    font-size: 130%;
+    margin-right: 75px;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+a, a:visited 
+{
+    text-decoration: none; 
+    color: black; 
+}
+
+form
+{
+    margin-top: 20px;
+}
+
+button
+{
+    position: relative;
+    top: 1px;
+    left: 60px;
+    width: 128px;
+    height: 53px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: #0065FC;
+    font-size: 18px;
+}
+
+input
+{
+    width: 220px;
+    height: 50px;
+    position: relative;
+    left: 65px;
+    border-color: #F2F2F2;
+    
+}
+
+.icon-location
+{
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'icomoon';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    left: 64px;
+    top: 221px;
+}
