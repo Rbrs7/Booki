@@ -383,3 +383,75 @@ input
     top: -35px;
 }
 
+.a2_img1
+{
+    padding-left: 40px;
+    width: 260px;
+}
+
+.groupe_img1
+{
+    font-size: 80%;
+    padding-left: 50px;
+}
+
+.a2_img2
+{
+    position: relative;
+    left: 350px;
+    bottom: 247px;
+    width: 263px;
+}
+
+.groupe_img2
+{
+    position: relative;
+    font-size: 80%;
+    left: 370px;
+    bottom: 247px;
+}
+
+.a2_img3
+{
+    position: relative;
+    left: 665px;
+    bottom: 494px;
+    width: 260px;
+}
+
+.groupe_img3
+{
+    position: relative;
+    font-size: 80%;
+    left: 680px;
+    bottom: 495px;
+}
+
+.a2_img4
+{
+    width: 260px;
+}
+
+.a2_img5
+{
+    width: 260px;
+}
+
+.a2_img6
+{
+    width: 260px;
+}
+
+.article_2
+{
+    display: flex;
+    background-color: #F2F2F2;
+    width: 55%;
+}
+
+.article_2 h1
+{
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
