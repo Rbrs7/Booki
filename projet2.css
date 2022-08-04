@@ -383,6 +383,8 @@ input
     top: -35px;
 }
 
+
+
 .a2_img1
 {
     padding-left: 40px;
@@ -447,6 +449,7 @@ input
     display: flex;
     background-color: #F2F2F2;
     width: 55%;
+    border-radius: 20px;
 }
 
 .article_2 h1
@@ -454,4 +457,15 @@ input
     margin-left: 40px;
     margin-top: 30px;
     padding-bottom: 30px;
+}
+
+.article_2 img
+{
+    border-radius: 15px;
+    background-color: white;
+}
+
+.background_img1
+{
+    background-color: white;
 }
