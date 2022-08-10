@@ -83,6 +83,8 @@
     font-display: swap;
 }
 
+/* Corps de la page */
+
 body
 {
     font-family: ralewayregular, Arial, Helvetica, sans-serif;
@@ -91,8 +93,11 @@ body
 .bloc_page
 {
     margin: auto;
-    margin-left: 50px;
+    margin-left: 3%;
+    margin-right: 5%;
 }
+
+/* Body & Header */
 
 body h2
 {
@@ -134,11 +139,9 @@ body img
 
 nav ul
 {
-    width: 300px;
-    height: 50px;
     display: flex;
     margin-top: 40px;
-    margin-right: 450px;
+    margin-right: 235px;
     list-style-type: none;
 }
 
@@ -223,6 +226,7 @@ input
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
@@ -262,9 +266,9 @@ input
     height: 45px;
     border-radius: 30px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-start;
     margin-right: 40px;
+    padding-right: 20px;
 
 }
 
@@ -309,6 +313,7 @@ input
     display: flex;
     justify-content: flex-start;
     margin-right: 40px;
+    padding-right: 20px;
 }
 
 
@@ -345,6 +350,7 @@ input
     display: flex;
     justify-content: flex-start;
     margin-right: 40px;
+    padding-right: 20px;
 }
 
 .icon-dog-solid
@@ -366,7 +372,7 @@ input
     display: flex;
     background-color: #DEEBFF;
     height: 48px;
-    width: 46px;
+    width: 65px;
     border-radius: 50%;
 }
 
@@ -378,7 +384,7 @@ input
     height: 45px;
     border-radius: 30px;
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
 }
 
 /* icone et texte entre filtres et Hébergements */
@@ -414,8 +420,8 @@ input
 .article_2
 {
     background-color: #F2F2F2;
-    width: 1000px;
-    height: 640px;
+    width: 55%;
+    height: auto;
     border-radius: 20px;
     margin-top: 10px;
     padding-top: 20px;
@@ -423,6 +429,7 @@ input
 
 .article_2 img
 {
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -432,6 +439,16 @@ input
     padding-left: 45px;
 }
 
+.more
+{
+    font-family: ralewaysemibold;
+    font-size: 1.1em;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
 .img_flex
 {
     display: flex;
@@ -439,15 +456,13 @@ input
     flex-wrap: wrap;
     align-items: center;
     padding-left: 45px;
-    padding-right: 65px;
+    padding-right: 50px;
 }
 
 .background_img1
 {
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
-    width: 260px;
-    height: 220px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -458,8 +473,6 @@ input
 {
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
-    width: 260px;
-    height: 220px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -470,8 +483,6 @@ input
 {
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
-    width: 260px;
-    height: 220px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -485,8 +496,6 @@ input
     flex-direction: column;
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
-    width: 260px;
-    height: 220px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -500,8 +509,6 @@ input
     flex-direction: column;
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
-    width: 260px;
-    height: 220px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -515,18 +522,10 @@ input
     flex-direction: column;
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
-    width: 260px;
-    height: 220px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     padding: 5px;
-}
-
-.afficherplus
-{
-    font-family: ralewaysemibold;
-    font-size: 110%;
 }
 
 .groupe_img1
@@ -657,6 +656,12 @@ input
 
 /* Aside */
 
+aside
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .aside_1 h1
 {
     padding-left: 40px;
@@ -669,20 +674,23 @@ input
 {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .aside_1
 {
     background-color: #F2F2F2;
-    height: 665px;
-    width: 430px;
+    height: auto;
+    width: 25%;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 3%;
     margin-top: 9px;
+    padding-bottom: 2.5%;
 }
 
 .aside_1 img
 {
+    object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -709,15 +717,12 @@ input
 {
     margin-bottom: 30px;
     display: flex;
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
     border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 30px;
-    padding-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-bottom: 2px;
     padding-top: 5px;
     padding-left: 5px;
 }
@@ -726,15 +731,12 @@ input
 {
     margin-bottom: 30px;
     display: flex;
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
     border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 30px;
-    padding-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-bottom: 2px;
     padding-top: 5px;
     padding-left: 5px;
 }
@@ -744,15 +746,12 @@ input
 {
     margin-bottom: 30px;
     display: flex;
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
     background-color: white;
     box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.04);
     border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 30px;
-    padding-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-bottom: 2px;
     padding-top: 5px;
     padding-left: 5px;
 }
@@ -812,11 +811,12 @@ input
 
 .article_3 h1
 {
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 .article_3 img
 {
+    object-fit: cover;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
