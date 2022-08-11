@@ -889,6 +889,7 @@ aside
     border-radius: 18px;
     padding-bottom: 2%;  
     box-shadow: 4px 7px 7px -1px rgba(0,0,0,0.10);
+    margin-bottom: 9%;
 }
 
 .group2_img6
@@ -897,11 +898,6 @@ aside
     border-radius: 18px;
     padding-bottom: 2%;  
     box-shadow: 4px 7px 7px -1px rgba(0,0,0,0.10);
-}
-
-.a3_img6
-{
-    padding-top: 8%;
 }
 
 /* Pied de page */
