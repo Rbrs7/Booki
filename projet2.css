@@ -108,6 +108,14 @@ body
     }
 }
 
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    body
+    {
+        width: auto;
+    }
+}
+
 /* Body & Header */
 
 body h2
@@ -168,13 +176,24 @@ nav ul
 
 nav li
 {
+    display: flex;
+    align-items: center;
     font-size: 120%;
-    margin-right: 35%;
+    margin-right: 30%;
+    height: 80px;
 }
 
 .menu_nav
 {
     margin-right: 22%;
+}
+
+nav a
+{
+    display: flex;
+    border-top: 2px solid #0065fc00;
+    height: 175px;
+    align-items: center;
 }
 
 @media all and (max-width: 768px)
@@ -185,7 +204,32 @@ nav li
     }
 }
 
+@media all and (max-width: 768px)
+{
+    nav li a:active
+    {
+        color: #0065FC;
+        border: none;
+    }
+}
+
+
+@media all and (max-width: 768px)
+{
+    nav li a:hover
+    {
+        color: #0065FC;
+        border: none;
+    }
+}
+
 nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+nav a:active
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
@@ -272,6 +316,59 @@ input
     margin-bottom: 15px;
 }
 
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .eco
+    {
+        margin-left: -10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .fam
+    {
+        margin-left: -30px;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .rom
+    {
+        margin-left: -30px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .anim
+    {
+        margin-left: -30px;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1920px)
+{
+    .filtres
+    {
+        display: flex;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .filtres
+    {
+        display: flex;
+        flex-wrap: wrap
+    }
+}
+
+
 @media all and (max-width: 768px)
 {
     .filtres
@@ -319,9 +416,22 @@ input
     }
 }
 
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .anim
+    {
+        margin-left: 0%;
+    }
+}
+
 .filtres h1
 {
     margin-right: 30px;
+}
+
+.filtres a:hover
+{
+    color: #0065FC;
 }
 
 .icon-credit-card
@@ -516,12 +626,68 @@ input
     padding-top: 20px;
 }
 
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .background_img1
+    {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .background_img2
+    {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .background_img3
+    {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .background_img4
+    {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .background_img5
+    {
+        width: 30%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .background_img6
+    {
+        width: 30%;
+    }
+}
+
 @media all and (max-width: 768px)
 {
     .article_2
     {
         width: auto;
         background-color: white;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .article_2
+    {
+        width: auto;
     }
 }
 
@@ -648,6 +814,15 @@ input
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .group2_img1
+    {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
 
 .groupe_img1 p
@@ -810,6 +985,26 @@ aside
     padding-bottom: 2.5%;
 }
 
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .aside_1
+    {
+        width: auto;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .aside_1
+    {
+        background-color: #F2F2F2;
+        width: auto;
+        margin-left: 9%;
+        padding-right: 13%;
+        padding-left: 8%;
+    }
+}
+
 @media all and (max-width: 768px)
 {
     .aside_1
@@ -843,6 +1038,14 @@ aside
     .a_img2
     {
         width: 65%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .a_img2
+    {
+        width: 40%;
     }
 }
 
@@ -990,6 +1193,15 @@ aside
     }
 }
 
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .article_3
+    {
+        width: auto;
+        margin-left: 9%;
+    }
+}
+
 .article_3 p
 {
     font-weight: bold;
@@ -1030,6 +1242,15 @@ aside
     padding-bottom: 4%;
 }
 
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .flex_img
+    {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
 .group2_img1
 {
     padding-right: 3%;
@@ -1043,12 +1264,28 @@ aside
     }
 }
 
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .group2_img1
+    {
+        margin-bottom: 2%;
+    }
+}
+
 .a3_img1
 {
     border: 1px solid #F2F2F2;
     border-radius: 18px;
     padding-bottom: 2%;  
     box-shadow: 4px 7px 7px -1px rgba(0,0,0,0.10);
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .a3_img1
+    {
+        width: 90%;
+    }
 }
 
 .group2_img2
@@ -1070,6 +1307,14 @@ aside
     border-radius: 18px;
     padding-bottom: 2%;  
     box-shadow: 4px 7px 7px -1px rgba(0,0,0,0.10);
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .a3_img2
+    {
+        margin-bottom: 9%;
+    }
 }
 
 @media all and (max-width: 768px)
@@ -1106,6 +1351,14 @@ aside
     box-shadow: 4px 7px 7px -1px rgba(0,0,0,0.10);
 }
 
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .a3_img4
+    {
+        width: 90%;
+    }
+}
+
 @media all and (max-width: 768px)
 {
     .a3_img4
@@ -1121,6 +1374,14 @@ aside
     padding-bottom: 2%;  
     box-shadow: 4px 7px 7px -1px rgba(0,0,0,0.10);
     margin-bottom: 9%;
+}
+
+@media all and (min-width: 992px) and (max-width: 1920px)
+{
+    .a3_img5
+    {
+        margin-bottom: 17%;
+    }
 }
 
 @media all and (max-width: 768px)
@@ -1158,6 +1419,14 @@ footer
     padding-bottom: 2%;
 }
 
+@media all and (min-width: 992px) and (max-width: 1650px)
+{
+    footer
+    {
+        margin-right: 0;
+    }
+}
+
 @media all and (max-width: 768px)
 {
     footer
@@ -1166,6 +1435,17 @@ footer
         flex-direction: column;
         align-items: center;
         margin-right: 0;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    footer
+    {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -1243,5 +1523,22 @@ footer ul
     .assist ul
     {
         margin-left: -45%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .nos_hbrg
+    {
+        margin-bottom: 5%;
+        margin-left: 6%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+    .assist
+    {
+        margin-bottom: 3%;
     }
 }
