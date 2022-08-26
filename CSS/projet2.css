@@ -118,6 +118,33 @@ body
     }
 }
 
+@media all and (min-width: 992px) and (max-width: 1600px)
+{
+    body
+    {
+        width: auto;
+        margin-left: 4%;
+    }
+}
+
+@media all and (min-width: 1600px) and (max-width: 1920px)
+{
+    body
+    {
+        margin-left: 12%;
+        width: auto;
+    }
+}
+
+@media all and (min-width: 1920px)
+{
+    body
+    {
+        width: auto;
+        margin-left: 12%;
+    }
+}
+
 /* Body & Header */
 
 body h2
@@ -185,7 +212,7 @@ nav li
     display: flex;
     align-items: center;
     font-size: 120%;
-    margin-right: 30%;
+    margin-right: 55%;
     height: 80px;
 }
 
@@ -209,6 +236,11 @@ nav a
     .menu_nav
     {
         padding-bottom: 3%;
+    }
+
+    nav
+    {
+        margin-right: 40%;
     }
 
     nav li a:active
@@ -1306,6 +1338,14 @@ aside
     }
 }
 
+@media all and (min-width: 992px) and (max-width: 1600px)
+{
+    .group2_img1
+    {
+        margin-right: -2%;
+    }
+}
+
 .group2_img2
 {
     padding-right: 3%;
@@ -1385,6 +1425,14 @@ aside
     }
 }
 
+@media all and (min-width: 992px) and (max-width: 1600px)
+{
+    .group2_img4
+    {
+        margin-right: -2%;
+    }
+}
+
 .a3_img5
 {
     border: 1px solid #F2F2F2;
@@ -1433,7 +1481,6 @@ footer
     display: flex;
     padding-top: 2%;
     background-color: #F2F2F2;
-    margin-right: 23%;
     padding-bottom: 2%;
 }
 
@@ -1464,8 +1511,33 @@ footer
     {
         display: flex;
         align-items: center;
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: -1%;
+        margin-left: -1%;
+        margin-bottom: -1%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1600px)
+{
+    footer
+    {
+        width: auto;
+        margin-right: 5%;
+        margin-left: 3%;
+        padding-left: 7%;
+    }
+}
+
+
+
+@media all and (min-width: 1920px)
+{
+    footer
+    {
+        width: auto;
+        margin-right: 19%;
+        margin-left: 3%;
+        padding-left: 7%;
     }
 }
 
