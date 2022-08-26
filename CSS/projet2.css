@@ -95,8 +95,6 @@ body
 .bloc_page
 {
     margin: auto;
-    margin-left: 3%;
-    margin-right: 5%;
 }
 
         /* Responsive Body */
@@ -647,6 +645,7 @@ input
     .article_2
     {
         width: auto;
+        margin-left: 1%;
         background-color: white;
     }
 }
@@ -1241,7 +1240,7 @@ aside
     .article_3
     {
         width: auto;
-        margin-left: 9%;
+        margin-left: 11%;
     }
 }
 
@@ -1522,8 +1521,8 @@ footer
     footer
     {
         width: auto;
-        margin-right: 5%;
-        margin-left: 3%;
+        margin-right: 0;
+        margin-left: -5%;
         padding-left: 7%;
     }
 }
@@ -1535,8 +1534,7 @@ footer
     footer
     {
         width: auto;
-        margin-right: 19%;
-        margin-left: 3%;
+        margin-right: 21%;
         margin-bottom: -1%;
         padding-left: 7%;
     }
